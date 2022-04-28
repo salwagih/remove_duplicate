@@ -5,7 +5,7 @@ def remove_duplicate_words_from(sentence):
     for word in words_list: 
         if word not in result:
             result.append(word)
-    return result
+    return " ".join(result)
     
     
     
